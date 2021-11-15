@@ -1,0 +1,104 @@
+.gpt3__footer {
+  background: var(--color-footer);
+  display: flex;
+  flex-direction: column;
+}
+.gpt3__footer .gpt3__footer-top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  align-items: center;
+}
+.gpt3__footer-top h3 {
+  font-family: var(--font-family);
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+}
+.gpt3__footer-top button {
+  max-width: 258px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+  background: transparent;
+  font-family: var(--font-family);
+  font-size: 18px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.gpt3__footer-bottom {
+  margin-top: 8rem;
+  display: flex;
+  column-gap: 40px;
+}
+.gpt3__footer-logo {
+  flex: 0.7;
+}
+.gpt3__footer-subsection {
+  flex: 2;
+  display: flex;
+}
+.gpt3__footer-subsection .gpt3__footer-div,
+.gpt3__footer-logo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.gpt3__footer-copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+.gpt3__footer-bottom p,
+.gpt3__footer-copyright p,
+.gpt3__footer-bottom h4,
+.gpt3__footer-copyright h4 {
+  color: #fff;
+  font-family: var(--font-family);
+}
+.gpt3__footer-div h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.gpt3__footer-logo img {
+  margin-bottom: 1rem;
+  max-width: 120px;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3__footer-top h3 {
+    font-size: 48px;
+  }
+  .gpt3__footer-bottom {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .gpt3__footer-subsection {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .gpt3__footer-div {
+    row-gap: 10px;
+  }
+  .gpt3__footer-subsection .gpt3__footer-div h4 {
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__footer-top h3 {
+    font-size: 28px;
+    line-height: 1.4em;
+  }
+  .gpt3__footer-top {
+    justify-content: center;
+    text-align: center;
+  }
+  .gpt3__footer-top button {
+    font-size: 16px;
+    padding: 1.2rem 2.2rem;
+  }
+}
