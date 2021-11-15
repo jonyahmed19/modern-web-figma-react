@@ -11,7 +11,9 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.5em;
+  font-family: var(--font-family);
 }
 .gpt3__feature p {
   color: var(--color-text);
+  font-family: var(--font-family);
 }
